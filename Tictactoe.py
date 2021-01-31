@@ -2,8 +2,9 @@
  
 from tkinter import Tk, Button
 from tkinter.font import Font
+
 from copy import deepcopy
-import pymsgbox
+
 class Board:
  
   def __init__(self,other=None):
